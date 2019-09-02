@@ -18,7 +18,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
 public class LoginActivity extends AppCompatActivity {
-    public static final String mUrlIP = "http://191.36.8.33:5000/";
+    public static final String mUrlIP = "http://127.0.0.1:5000/";
     private EditText mEditUser;
     private EditText mEditSenha;
     private final int SEGUNDA = 1;
@@ -54,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
     }
     public void pedidoGET(final View view){
         RequestQueue fila = Volley.newRequestQueue(this);
-        final String url = mUrlIP+"login/"+mEditUser.getText().toString()+"/"+mEditSenha.getText();
+        final String url = mUrlIP+"login/"+mEditUser.getText().toString();//+"/"+mEditSenha.getText();
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override

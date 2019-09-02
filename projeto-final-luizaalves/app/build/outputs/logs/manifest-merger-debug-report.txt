@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support:design:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/dfcce03dd2f474d69107d4a52c6f7c10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/bc178f7b4ecf3bf8fe00e3776c413713/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/94afce2b09913e1ad03cf0d8ca965b57/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/13b9431ac2e2c59ec8d6d35c09c81b94/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7fd4ae4989a7db5b752d598234d2e799/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b082a14c58c18b7d70468f2854c4959d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e004af32ec9d97131333effe8a400573/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/107d3a6a72e5753db20c46e3db4730ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/947f68e8e2762668e170131370563ed7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/72ec8723852987484c7ea9f527a3aef1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2563f1dece3bde39392dee109e30015f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/0e16fa3f825d82e2831912d446323114/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/2b437f8d29273e92df235bf0528a6481/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d84cf550fa0acdf9b65f81fa91d93b43/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0037e1add03360e69f7032f9677f7549/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7f1ce6d847172c8af8442f115cf46346/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a5ceeaaf6e88cd4a81290d054f7f5623/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a9c52ccbb18c16d475d5679cd85a3594/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:4:5-47
+		INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:9:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/94afce2b09913e1ad03cf0d8ca965b57/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/94afce2b09913e1ad03cf0d8ca965b57/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/13b9431ac2e2c59ec8d6d35c09c81b94/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/13b9431ac2e2c59ec8d6d35c09c81b94/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:13:9-41
+	android:debuggable
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:11:9-34
+	tools:ignore
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:17:9-42
+	android:roundIcon
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:16:9-40
+activity#engtelecom.poo.luiza.ifnightfood.LoginActivity
+ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:18:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:22:27-74
+activity#engtelecom.poo.luiza.ifnightfood.PrincipalActivity
+ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:25:9-26:58
+	android:parentActivityName
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:25:19-52
+activity#engtelecom.poo.luiza.ifnightfood.ReservasActivity
+ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:27:9-28:62
+	android:parentActivityName
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:27:19-51
+activity#engtelecom.poo.luiza.ifnightfood.CardapioActivity
+ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:29:9-30:72
+	android:parentActivityName
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:30:13-60
+	android:name
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml:29:19-51
+uses-sdk
+INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/dfcce03dd2f474d69107d4a52c6f7c10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/dfcce03dd2f474d69107d4a52c6f7c10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/bc178f7b4ecf3bf8fe00e3776c413713/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/bc178f7b4ecf3bf8fe00e3776c413713/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/94afce2b09913e1ad03cf0d8ca965b57/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/94afce2b09913e1ad03cf0d8ca965b57/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/13b9431ac2e2c59ec8d6d35c09c81b94/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/13b9431ac2e2c59ec8d6d35c09c81b94/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-v4:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7fd4ae4989a7db5b752d598234d2e799/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7fd4ae4989a7db5b752d598234d2e799/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b082a14c58c18b7d70468f2854c4959d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b082a14c58c18b7d70468f2854c4959d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e004af32ec9d97131333effe8a400573/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e004af32ec9d97131333effe8a400573/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/107d3a6a72e5753db20c46e3db4730ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/107d3a6a72e5753db20c46e3db4730ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/947f68e8e2762668e170131370563ed7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/947f68e8e2762668e170131370563ed7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/72ec8723852987484c7ea9f527a3aef1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/72ec8723852987484c7ea9f527a3aef1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2563f1dece3bde39392dee109e30015f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2563f1dece3bde39392dee109e30015f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/0e16fa3f825d82e2831912d446323114/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/0e16fa3f825d82e2831912d446323114/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/2b437f8d29273e92df235bf0528a6481/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/2b437f8d29273e92df235bf0528a6481/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d84cf550fa0acdf9b65f81fa91d93b43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d84cf550fa0acdf9b65f81fa91d93b43/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0037e1add03360e69f7032f9677f7549/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0037e1add03360e69f7032f9677f7549/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7f1ce6d847172c8af8442f115cf46346/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7f1ce6d847172c8af8442f115cf46346/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a5ceeaaf6e88cd4a81290d054f7f5623/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a5ceeaaf6e88cd4a81290d054f7f5623/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a9c52ccbb18c16d475d5679cd85a3594/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/aluno/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a9c52ccbb18c16d475d5679cd85a3594/AndroidManifest.xml:20:5-44
+INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+		ADDED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/src/main/AndroidManifest.xml

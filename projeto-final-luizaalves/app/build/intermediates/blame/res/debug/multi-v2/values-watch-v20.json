@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/aluno/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/bc178f7b4ecf3bf8fe00e3776c413713/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
