@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.List;
 
 import static engtelecom.poo.luiza.ifnightfood.ReservasActivity.RESPOSTA;
 
@@ -24,12 +25,13 @@ public class PrincipalActivity extends AppCompatActivity {
     private final int TERCEIRA = 1;
     private final int QUARTA = 1;
     private ListView mHistorico;
-    private ArrayAdapter<ArrayList> mAdapter;
-    private ArrayList historico;
+    private ArrayAdapter<String> mAdapter;
+    //private ArrayList historico;
     private SharedPreferences mPreferences;
     private static final String mSharedPrefFile = "poo.engtelecom.main";
     private final String USER_KEY = "usuario";
 
+    //quando abre a tela, exibe essas info
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,16 +41,17 @@ public class PrincipalActivity extends AppCompatActivity {
         String user = mPreferences.getString(USER_KEY,"");
         mHistorico = (ListView) findViewById(R.id.listaHistorico);
 
-        ArrayList<String> f = new ArrayList<String>();
-        f.add(mPreferences.getString("s",""));
-        f.add(mPreferences.getString("ss",""));
-        f.add(mPreferences.getString("sss",""));
-        f.add(mPreferences.getString("ssss",""));
-        ArrayAdapter<String> mAdapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,f);
-        mHistorico.setAdapter(mAdapter2);
-        mAdapter2.notifyDataSetChanged();
+        //tem que dar um get da url para pegar os itens já reservados e jogar nessa Arraylist de reservas
+        ArrayList<String> reservas = new ArrayList<String>();
+        reservas.add(mPreferences.getString("s",""));
 
-        historico = new ArrayList();
+        mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, reservas);
+
+        //exibe na tela as reservas
+        mHistorico.setAdapter(mAdapter);
+        mAdapter.notifyDataSetChanged();
+
+        //historico = new ArrayList();
 
         /*mAdapter = new ArrayAdapter<ArrayList>(this, android.R.layout.simple_list_item_1,historico);
         mHistorico.setAdapter(mAdapter);*/
@@ -68,25 +71,6 @@ public class PrincipalActivity extends AppCompatActivity {
                 invocarTerceira(view);
             }
         });
-    }
-
-    public void exibirConfirmacaoExcluir(){
-        AlertDialog.Builder msgbox = new AlertDialog.Builder(this);
-        msgbox.setTitle("Excluir reserva");
-        msgbox.setMessage("Você deseja mesmo excluir esta reserva?");
-        msgbox.setPositiveButton("SIM", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                //pega o token e joga no url pra consumir
-                Toast.makeText(PrincipalActivity.this,"Reserva excluida.", Toast.LENGTH_SHORT).show();
-            }
-        });
-        msgbox.setNegativeButton("NÃO", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-            }
-        });
-        msgbox.show();
     }
 
     public void invocarTerceira(View view){

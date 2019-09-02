@@ -1,4 +1,4 @@
-#Mon Sep 02 11:25:45 BRT 2019
+#Mon Sep 02 13:57:04 BRT 2019
 base.0=/home/aluno/POO29004-Projetos/projeto-final-luizaalves/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

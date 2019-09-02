@@ -18,11 +18,11 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
 public class LoginActivity extends AppCompatActivity {
-    public static final String mUrlIP = "http://127.0.0.1:5000/";
+    public static final String mUrlIP = "http://localhost:5000/";
     private EditText mEditUser;
     private EditText mEditSenha;
     private final int SEGUNDA = 1;
-    private SharedPreferences mPreferences;
+    private SharedPreferences mPreferences; //persistindo em dados
     private static final String mSharedPrefFile = "poo.engtelecom.contador";
     private final String USER_KEY = "usuario";
     private final String SENHA_KEY  = "senha";
@@ -34,31 +34,35 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        //usuario
+        //salvar os dados de usuario, mostra caso já tenha salvo anteriormente
         mPreferences = getSharedPreferences(mSharedPrefFile, MODE_PRIVATE);
         String user = mPreferences.getString(USER_KEY,"");
         mEditUser = (EditText) findViewById(R.id.username);
         mEditUser.setText(user);
 
-        //senha
+        //mostrar os dados da senha, mostra caso já tenha salvo anteriormente
         mEditSenha = (EditText) findViewById(R.id.senha);
         mPreferences = getSharedPreferences(mSharedPrefFile, MODE_PRIVATE);
         String senha = mPreferences.getString(SENHA_KEY,"");
         mEditSenha.setText(senha);
 
-        //lembrar senha
+        //lembrar senha atraves do checkbox, se o checkbox está marcado, ele exibe a senha
         mCheckBox = (CheckBox) findViewById(R.id.salvarSenha);
         mPreferences = getSharedPreferences(mSharedPrefFile, MODE_PRIVATE);
         boolean check2 = mPreferences.getBoolean(CHECK_KEY,false);
         mCheckBox.setChecked(check2);
     }
+
+    //se o botão for pressionado...
     public void pedidoGET(final View view){
         RequestQueue fila = Volley.newRequestQueue(this);
-        final String url = mUrlIP+"login/"+mEditUser.getText().toString();//+"/"+mEditSenha.getText();
+        //ele joga o que foi digitado na caixa de texto nessa string url
+        final String url = mUrlIP+"login/"+mEditUser.getText().toString()+"/"+mEditSenha.getText();
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
+                //se o login e a senha estão corretos, ele passa pra tela principal
                 if(response.compareTo("Autenticado com sucesso")== 0){
                     invocarSegunda(view);
 
@@ -66,6 +70,7 @@ public class LoginActivity extends AppCompatActivity {
 
                     else if(verificarCheckbox()==false) check = false;
                 }
+                //se estiver errado, ele apaga o que estava escrito na caixa de user e senha e exibe uma mensagem de erro
                 else if(response.compareTo("Erro na autenticação")== 0){
                     mEditUser.setText("");
                     mEditSenha.setText("");
@@ -89,10 +94,12 @@ public class LoginActivity extends AppCompatActivity {
         fila.add(stringRequest);
     }
 
+    //muda para a tela principal
     public void invocarSegunda(View view){
         Intent intent = new Intent(this,PrincipalActivity.class);
         startActivityForResult(intent,SEGUNDA);
     }
+    //se virar a tela na vertical ele mantém os dados
     @Override
     protected void onPause() {
         super.onPause();
@@ -127,6 +134,7 @@ public class LoginActivity extends AppCompatActivity {
         }
 
     }
+    //se marcar o checkbox
     public boolean verificarCheckbox() {
         if (mCheckBox.isChecked()) {
             return true;
